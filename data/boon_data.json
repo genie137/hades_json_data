@@ -1,0 +1,177 @@
+{
+  "boons": [
+    {
+      "id": "boon_aphro_hearthbreak_strike",
+      "god": ["god_aphrodite"],
+      "name": "Heartbreak Strike",
+      "description": "Your Attack deals more damage and inflicts Weak.",
+      "type": ["attack"],
+      "status_effect": ["weak"],
+      "availability": {
+        "requires": [],
+        "incompatible": []
+      },
+      "tier": 1,
+      "extra": {
+        "effect_duration": 3
+      },
+      "rarity": {
+        "common": {
+          "base": null,
+          "type": "+%",
+          "value": 50
+        },
+        "rare": {
+          "base": "common",
+          "type": "*",
+          "value": {
+            "min": 1.3,
+            "max": 1.5
+          }
+        },
+        "epic": {
+          "base": "common",
+          "type": "*",
+          "value": {
+            "min": 1.8,
+            "max": 2.0
+          }
+        },
+        "heroic": {
+          "base": "common",
+          "type": "*",
+          "value": {
+            "min": 2.3,
+            "max": 2.5
+          }
+        }
+      }
+    },
+    {
+      "id": "boon_aphro_hearthbreak_florish",
+      "god": ["god_aphrodite"],
+      "name": "Heartbreak Florish",
+      "description": "Your Special deals more damage and inflicts Weak.",
+      "type": ["special"],
+      "availability": {
+        "requires": [],
+        "incompatible": []
+      },
+      "status_effect": ["weak"],
+      "tier": 1,
+      "extra": {
+        "effect_duration": 3
+      },
+      "rarity": {
+        "common": {
+          "base": null,
+          "type": "+%",
+          "value": 80
+        },
+        "rare": {
+          "base": "common",
+          "type": "*",
+          "value": {
+            "min": 1.3,
+            "max": 1.5
+          }
+        },
+        "epic": {
+          "base": "common",
+          "type": "*",
+          "value": {
+            "min": 1.8,
+            "max": 2.0
+          }
+        },
+        "heroic": {
+          "base": "common",
+          "type": "*",
+          "value": {
+            "min": 2.3,
+            "max": 2.5
+          }
+        }
+      }
+    },
+    {
+      "id": "boon_aphro_crush_shot",
+      "god": ["god_aphrodite"],
+      "name": "Crush Shot",
+      "description": "Your Cast is a wide, short-range blast that inflicts Weak.",
+      "type": ["cast"],
+      "status_effect": ["weak"],
+      "availability": {
+        "requires": [],
+        "incompatible": ["weapon_shield_beowulf"]
+      },
+      "tier": 1,
+      "extra": {
+        "cast_range": 300,
+        "effect_duration": 3
+      },
+      "rarity": {
+        "common": {
+          "base": null,
+          "type": ".",
+          "value": 90
+        },
+        "rare": {
+          "base": null,
+          "type": ".",
+          "value": 100
+        },
+        "epic": {
+          "base": null,
+          "type": ".",
+          "value": 110
+        },
+        "heroic": {
+          "base": "common",
+          "type": ".",
+          "value": 120
+        }
+      }
+    },
+    {
+      "id": "boon_aphro_passion_flare",
+      "god": ["god_aphrodite"],
+      "name": "Passion Flare",
+      "description": "Your Cast damages foes around you and inflicts Weak.",
+      "type": ["cast"],
+      "availability": {
+        "requires": [],
+        "incompatible": []
+      },
+      "status_effect": ["weak"],
+      "tier": 1,
+      "extra": {
+        "cast_range": 300,
+        "effect_duration": 3
+      },
+      "rarity": {
+        "common": {
+          "base": null,
+          "type": ".",
+          "value": 90
+        },
+        "rare": {
+          "base": null,
+          "type": ".",
+          "value": 100
+        },
+        "epic": {
+          "base": null,
+          "type": ".",
+          "value": 110
+        },
+        "heroic": {
+          "base": null,
+          "type": ".",
+          "value": 120
+        }
+      }
+    },
+  ]
+}
+}

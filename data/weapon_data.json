@@ -1,0 +1,76 @@
+{
+  "weapons": [
+    {
+      "id": "weapon_sword_zagreus"
+    },
+    {
+      "id": "weapon_sword_nemesis"
+    },
+    {
+      "id": "weapon_sword_poseidon"
+    },
+    {
+      "id": "weapon_sword_arthur"
+    },
+    {
+      "id": "weapon_spear_zagreus"
+    },
+    {
+      "id": "weapon_spear_achilles"
+    },
+    {
+      "id": "weapon_spear_hades"
+    },
+    {
+      "id": "weapon_spear_guan_yu"
+    },
+    {
+      "id": "weapon_shield_zagreus"
+    },
+    {
+      "id": "weapon_shield_chaos"
+    },
+    {
+      "id": "weapon_shield_zeus"
+    },
+    {
+      "id": "weapon_shield_beowulf"
+    },
+    {
+      "id": "weapon_bow_zagreus"
+    },
+    {
+      "id": "weapon_bow_chiron"
+    },
+    {
+      "id": "weapon_bow_hera"
+    },
+    {
+      "id": "weapon_bow_rama"
+    },
+    {
+      "id": "weapon_fist_zagreus"
+    },
+    {
+      "id": "weapon_fist_talos"
+    },
+    {
+      "id": "weapon_fist_demeter"
+    },
+    {
+      "id": "weapon_fist_gilgamesh"
+    },
+    {
+      "id": "weapon_rail_zagreus"
+    },
+    {
+      "id": "weapon_fist_eris"
+    },
+    {
+      "id": "weapon_fist_hestia"
+    },
+    {
+      "id": "weapon_fist_lucifer"
+    }
+  ]
+}
