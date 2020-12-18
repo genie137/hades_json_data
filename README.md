@@ -15,7 +15,7 @@
 - name (readable name of the boon)
 - description (readable description of the boon)
 - type (array with string defining the type of boon)
-    - Choices: `attack`, `special`, `cast`, `dash`, `aid`, `revenge`, `buff_inc_damage`, `buff_red_damage`, `buff_sturdy`, `buff_dodge`, `buff_move_speed`, `buff_shielded` 
+    - Choices: `attack`, `special`, `cast`, `dash`, `aid`, `revenge`, `foe_death`, `resist`, `buff_inc_damage`, `buff_red_damage`, `buff_sturdy`, `buff_dodge`, `buff_move_speed`, `buff_shielded`, `buff_max_health`, `buff_healing`, `upgrade`, `buff_poms` 
 - status_effect (array with string defining if the boon inflicts a status effect)
     - Choices: `weak`, `ruptured`, `hangover`, `marked`, `jolted`, `exposed`, `doom`, `chill`, `punished`, `stun`, `petrified`, `poison`
 - availability (json obj with data describing when the boon can be obtained)
