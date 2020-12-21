@@ -2,7 +2,7 @@
   "latest_patch_id": 52,
   "patches": [
     {
-      "patch_id": 52,
+      "id": 52,
       "game_version": "v1.37033",
       "title": "052 - Post Launch Patch",
       "date_timestamp": 1606737600
