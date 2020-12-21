@@ -1,0 +1,12 @@
+{
+  "keepsakes": [
+    {
+      "id": "keepsake_old_spiked_collar",
+      "source": "npc_ceberus"
+    },
+    {
+      "id": "keepsake_sigil_of_the_dead",
+      "source": "npc_hades"
+    }
+  ]
+}
