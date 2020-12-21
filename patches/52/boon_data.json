@@ -8,7 +8,7 @@
       "type": ["attack"],
       "status_effect": ["weak"],
       "availability": {
-        "requires": [],
+        "requiresOneOfEach": [],
         "incompatible": []
       },
       "tier": 1,
@@ -55,7 +55,7 @@
       "description": "Your Special deals more damage and inflicts Weak.",
       "type": ["special"],
       "availability": {
-        "requires": [],
+        "requiresOneOfEach": [],
         "incompatible": []
       },
       "status_effect": ["weak"],
@@ -104,7 +104,7 @@
       "type": ["cast"],
       "status_effect": ["weak"],
       "availability": {
-        "requires": [],
+        "requiresOneOfEach": [],
         "incompatible": ["weapon_shield_beowulf"]
       },
       "tier": 1,
@@ -143,7 +143,7 @@
       "description": "Your Cast damages foes around you and inflicts Weak.",
       "type": ["cast"],
       "availability": {
-        "requires": [],
+        "requiresOneOfEach": [],
         "incompatible": []
       },
       "status_effect": ["weak"],
@@ -183,7 +183,7 @@
       "description": "Your Dash inflicts damage where you end up, inflicting Weak.",
       "type": ["dash"],
       "availability": {
-        "requires": [],
+        "requiresOneOfEach": [],
         "incompatible": []
       },
       "status_effect": ["weak"],
@@ -223,7 +223,7 @@
       "description": "Your Call fires a seeking projectile that inflicts Charm.",
       "type": ["aid"],
       "availability": {
-        "requires": [],
+        "requiresOneOfEach": [],
         "incompatible": []
       },
       "status_effect": ["charm"],
@@ -262,7 +262,7 @@
       "description": "When foes are slain, they damage nearby foes and inflict Weak.",
       "type": ["foe_death"],
       "availability": {
-        "requires": [],
+        "requiresOneOfEach": [],
         "incompatible": []
       },
       "status_effect": ["weak"],
@@ -310,7 +310,7 @@
       "description": "After you take damage, damage nearby foes and inflict Weak.",
       "type": ["revenge"],
       "availability": {
-        "requires": [],
+        "requiresOneOfEach": [],
         "incompatible": []
       },
       "status_effect": ["weak"],
@@ -358,7 +358,7 @@
       "description": "Resist some damage from nearby foes' attacks.",
       "type": ["resist"],
       "availability": {
-        "requires": [],
+        "requiresOneOfEach": [],
         "incompatible": []
       },
       "status_effect": [],
@@ -397,7 +397,7 @@
       "description": "Any 'max health' or 'healing' chamber rewards are worth more.",
       "type": ["buff_max_health", "buff_healing"],
       "availability": {
-        "requires": [],
+        "requiresOneOfEach": [],
         "incompatible": []
       },
       "status_effect": [],
@@ -440,11 +440,13 @@
         "upgrade"
       ],
       "availability": {
-        "requires_or": [
-          "boon_passion_dash",
-          "boon_crush_shot",
-          "boon_hearthbreak_strike",
-          "boon_hearthbreak_florish"
+        "requiresOneOfEach": [
+          [
+            "boon_passion_dash",
+            "boon_crush_shot",
+            "boon_hearthbreak_strike",
+            "boon_hearthbreak_florish"
+          ]
         ],
         "incompatible": []
       },
@@ -487,11 +489,13 @@
         "upgrade"
       ],
       "availability": {
-        "requires_or": [
+        "requiresOneOfEach": [
+          [
           "boon_passion_dash",
           "boon_crush_shot",
           "boon_hearthbreak_strike",
           "boon_hearthbreak_florish"
+          ]
         ],
         "incompatible": []
       },
@@ -543,11 +547,13 @@
         "upgrade"
       ],
       "availability": {
-        "requires_or": [
-          "boon_passion_dash",
-          "boon_crush_shot",
-          "boon_hearthbreak_strike",
-          "boon_hearthbreak_florish"
+        "requiresOneOfEach": [
+          [
+            "boon_passion_dash",
+            "boon_crush_shot",
+            "boon_hearthbreak_strike",
+            "boon_hearthbreak_florish"
+          ]
         ],
         "incompatible": []
       },
@@ -591,8 +597,10 @@
         "upgrade"
       ],
       "availability": {
-        "requires_or": [
-          "boon_crush_shot"
+        "requiresOneOfEach": [
+          [
+            "boon_crush_shot"
+          ]
         ],
         "incompatible": []
       },
@@ -637,8 +645,10 @@
         "upgrade"
       ],
       "availability": {
-        "requires_or": [
-          "boon_crush_shot"
+        "requiresOneOfEach": [
+          [
+            "boon_crush_shot"
+          ]
         ],
         "incompatible": []
       },
@@ -667,8 +677,7 @@
         "upgrade"
       ],
       "availability": {
-        "requires_or": [],
-        "requires_one_of_each": [
+        "requiresOneOfEach": [
           [
             "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish"
           ],
@@ -701,8 +710,7 @@
         "upgrade"
       ],
       "availability": {
-        "requires_or": [],
-        "requires_one_of_each": [
+        "requiresOneOfEach": [
           [
             "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish"
           ],
@@ -735,8 +743,7 @@
         "cast", "upgrade", "backstab"
       ],
       "availability": {
-        "requires_or": [],
-        "requires_one_of_each": [
+        "requiresOneOfEach": [
           [
             "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish", "boon_aphrodite_aid"
           ],
@@ -769,8 +776,7 @@
         "cast", "upgrade"
       ],
       "availability": {
-        "requires_or": [],
-        "requires_one_of_each": [
+        "requiresOneOfEach": [
           [
             "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish", "boon_aphrodite_aid"
           ],
@@ -805,8 +811,7 @@
         "upgrade"
       ],
       "availability": {
-        "requires_or": [],
-        "requires_one_of_each": [
+        "requiresOneOfEach": [
           [
             "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish"
           ],
@@ -840,8 +845,7 @@
         "buff_poms"
       ],
       "availability": {
-        "requires_or": [],
-        "requires_one_of_each": [
+        "requiresOneOfEach": [
           [
             "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish", "boon_aphrodite_aid"
           ],
@@ -875,8 +879,7 @@
         "call"
       ],
       "availability": {
-        "requires_or": [],
-        "requires_one_of_each": [
+        "requiresOneOfEach": [
           [
             "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish", "boon_aphrodite_aid"
           ],
