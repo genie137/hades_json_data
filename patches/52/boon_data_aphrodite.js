@@ -1,5 +1,4 @@
-{
-  "boons": [
+var boons = [
     {
       "id": "boon_hearthbreak_strike",
       "god": ["god_aphrodite"],
@@ -8,7 +7,7 @@
       "type": ["attack"],
       "status_effect": ["weak"],
       "availability": {
-        "requiresOneOfEach": [],
+        "requiresOneOfEach": {},
         "incompatible": []
       },
       "tier": 1,
@@ -55,7 +54,7 @@
       "description": "Your Special deals more damage and inflicts Weak.",
       "type": ["special"],
       "availability": {
-        "requiresOneOfEach": [],
+        "requiresOneOfEach": {},
         "incompatible": []
       },
       "status_effect": ["weak"],
@@ -104,7 +103,7 @@
       "type": ["cast"],
       "status_effect": ["weak"],
       "availability": {
-        "requiresOneOfEach": [],
+        "requiresOneOfEach": {},
         "incompatible": ["weapon_shield_beowulf"]
       },
       "tier": 1,
@@ -143,7 +142,7 @@
       "description": "Your Cast damages foes around you and inflicts Weak.",
       "type": ["cast"],
       "availability": {
-        "requiresOneOfEach": [],
+        "requiresOneOfEach": {},
         "incompatible": []
       },
       "status_effect": ["weak"],
@@ -183,7 +182,7 @@
       "description": "Your Dash inflicts damage where you end up, inflicting Weak.",
       "type": ["dash"],
       "availability": {
-        "requiresOneOfEach": [],
+        "requiresOneOfEach": {},
         "incompatible": []
       },
       "status_effect": ["weak"],
@@ -223,7 +222,7 @@
       "description": "Your Call fires a seeking projectile that inflicts Charm.",
       "type": ["aid"],
       "availability": {
-        "requiresOneOfEach": [],
+        "requiresOneOfEach": {},
         "incompatible": []
       },
       "status_effect": ["charm"],
@@ -262,7 +261,7 @@
       "description": "When foes are slain, they damage nearby foes and inflict Weak.",
       "type": ["foe_death"],
       "availability": {
-        "requiresOneOfEach": [],
+        "requiresOneOfEach": {},
         "incompatible": []
       },
       "status_effect": ["weak"],
@@ -310,7 +309,7 @@
       "description": "After you take damage, damage nearby foes and inflict Weak.",
       "type": ["revenge"],
       "availability": {
-        "requiresOneOfEach": [],
+        "requiresOneOfEach": {},
         "incompatible": []
       },
       "status_effect": ["weak"],
@@ -358,7 +357,7 @@
       "description": "Resist some damage from nearby foes' attacks.",
       "type": ["resist"],
       "availability": {
-        "requiresOneOfEach": [],
+        "requiresOneOfEach": {},
         "incompatible": []
       },
       "status_effect": [],
@@ -397,7 +396,7 @@
       "description": "Any 'max health' or 'healing' chamber rewards are worth more.",
       "type": ["buff_max_health", "buff_healing"],
       "availability": {
-        "requiresOneOfEach": [],
+        "requiresOneOfEach": {},
         "incompatible": []
       },
       "status_effect": [],
@@ -440,14 +439,14 @@
         "upgrade"
       ],
       "availability": {
-        "requiresOneOfEach": [
-          [
+        "requiresOneOfEach": {
+          0: [
             "boon_passion_dash",
             "boon_crush_shot",
             "boon_hearthbreak_strike",
             "boon_hearthbreak_florish"
           ]
-        ],
+        },
         "incompatible": []
       },
       "status_effect": [],
@@ -489,14 +488,14 @@
         "upgrade"
       ],
       "availability": {
-        "requiresOneOfEach": [
-          [
-          "boon_passion_dash",
-          "boon_crush_shot",
-          "boon_hearthbreak_strike",
-          "boon_hearthbreak_florish"
+        "requiresOneOfEach": {
+          0: [
+            "boon_passion_dash",
+            "boon_crush_shot",
+            "boon_hearthbreak_strike",
+            "boon_hearthbreak_florish"
           ]
-        ],
+        },
         "incompatible": []
       },
       "status_effect": [],
@@ -547,14 +546,14 @@
         "upgrade"
       ],
       "availability": {
-        "requiresOneOfEach": [
-          [
+        "requiresOneOfEach": {
+          0: [
             "boon_passion_dash",
             "boon_crush_shot",
             "boon_hearthbreak_strike",
             "boon_hearthbreak_florish"
           ]
-        ],
+        },
         "incompatible": []
       },
       "status_effect": [],
@@ -597,11 +596,11 @@
         "upgrade"
       ],
       "availability": {
-        "requiresOneOfEach": [
-          [
+        "requiresOneOfEach": {
+          0: [
             "boon_crush_shot"
           ]
-        ],
+        },
         "incompatible": []
       },
       "status_effect": [],
@@ -645,11 +644,11 @@
         "upgrade"
       ],
       "availability": {
-        "requiresOneOfEach": [
-          [
+        "requiresOneOfEach": {
+          0: [
             "boon_crush_shot"
           ]
-        ],
+        },
         "incompatible": []
       },
       "status_effect": ["charm"],
@@ -665,244 +664,5 @@
           "value": 15
         }
       }
-    },
-    {
-      "id": "boon_curse_of_longing",
-      "god": [
-        "god_aphrodite", "god_ares"
-      ],
-      "name": "Curse of Longing",
-      "description": "Your Doom effects continuously strike Weak foes.",
-      "type": [
-        "upgrade"
-      ],
-      "availability": {
-        "requiresOneOfEach": [
-          [
-            "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish"
-          ],
-          [
-            "boon_curse_of_agony", "boon_curse_of_pain"
-          ]
-        ],
-        "incompatible": []
-      },
-      "status_effect": [],
-      "tier": 3,
-      "extra": {},
-      "value_description": "Successive Hit Damage",
-      "rarity": {
-        "duo": {
-          "base": null,
-          "type": "%",
-          "value": 50
-        }
-      }
-    },
-    {
-      "id": "boon_heart_rend",
-      "god": [
-        "god_aphrodite", "god_artemis"
-      ],
-      "name": "Heart Rend",
-      "description": "Your Critical effects deal even more damage to Weak foes.",
-      "type": [
-        "upgrade"
-      ],
-      "availability": {
-        "requiresOneOfEach": [
-          [
-            "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish"
-          ],
-          [
-            "boon_deadly_strike", "boon_deadly_florish", "boon_true_shot"
-          ]
-        ],
-        "incompatible": []
-      },
-      "status_effect": [],
-      "tier": 4,
-      "extra": {},
-      "value_description": "Bonus Critical Damage vs Weak",
-      "rarity": {
-        "duo": {
-          "base": null,
-          "type": "%",
-          "value": 150
-        }
-      }
-    },
-    {
-      "id": "boon_parting_shot",
-      "god": [
-        "god_aphrodite", "god_athena"
-      ],
-      "name": "Parting Shot",
-      "description": "Your Cast gains any bonuses you have for striking foes from behind.",
-      "type": [
-        "cast", "upgrade", "backstab"
-      ],
-      "availability": {
-        "requiresOneOfEach": [
-          [
-            "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish", "boon_aphrodite_aid"
-          ],
-          [
-            "boon_divine_strike", "boon_phalanx_shot", "boon_divine_flourish", "boon_divine_dash", "boon_athena_aid"
-          ]
-        ],
-        "incompatible": ["boon_trippy_shot"]
-      },
-      "status_effect": [],
-      "tier": 4,
-      "extra": {},
-      "value_description": "Bonus Backstab Damage",
-      "rarity": {
-        "duo": {
-          "base": null,
-          "type": "%",
-          "value": 25
-        }
-      }
-    },
-    {
-      "id": "boon_cold_embrace",
-      "god": [
-        "god_aphrodite", "god_demeter"
-      ],
-      "name": "Parting Shot",
-      "description": "Your Cast crystal fires its beam directly at you for 4 seconds.",
-      "type": [
-        "cast", "upgrade"
-      ],
-      "availability": {
-        "requiresOneOfEach": [
-          [
-            "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish", "boon_aphrodite_aid"
-          ],
-          [
-            "boon_crystal_beam"
-          ]
-        ],
-        "incompatible": ["boon_crystal_clarity", "weapon_shield_beowulf"]
-      },
-      "status_effect": [],
-      "tier": 4,
-      "extra": {
-        "beam_player_target_duration_seconds": 4
-      },
-      "value_description": "Bonus Cast Damage",
-      "rarity": {
-        "duo": {
-          "base": null,
-          "type": "%",
-          "value": 25
-        }
-      }
-    },
-    {
-      "id": "boon_low_tolerance",
-      "god": [
-        "god_aphrodite", "god_dionysus"
-      ],
-      "name": "Low Tolerance",
-      "description": "Your Hangover effects stack even more times against Weak foes.",
-      "type": [
-        "upgrade"
-      ],
-      "availability": {
-        "requiresOneOfEach": [
-          [
-            "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish"
-          ],
-          [
-            "boon_drunken_strike", "boon_drunken_florish", "boon_drunken_dash", "boon_dionysus_aid"
-          ]
-        ],
-        "incompatible": []
-      },
-      "status_effect": [],
-      "tier": 4,
-      "extra": {
-      },
-      "value_description": "Bonus Hangover Stacks",
-      "rarity": {
-        "duo": {
-          "base": null,
-          "type": ".",
-          "value": 3
-        }
-      }
-    },
-    {
-      "id": "boon_sweet_nectar",
-      "god": [
-        "god_aphrodite", "god_poseidon"
-      ],
-      "name": "Sweet Nectar",
-      "description": "Any Poms of Power you find are more effective.",
-      "type": [
-        "buff_poms"
-      ],
-      "availability": {
-        "requiresOneOfEach": [
-          [
-            "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish", "boon_aphrodite_aid"
-          ],
-          [
-            "boon_tempest_strike", "boon_tempest_flourish", "boon_flood_shot", "boon_tidal_dash", "boon_posidon_aid"
-          ]
-        ],
-        "incompatible": []
-      },
-      "status_effect": [],
-      "tier": 4,
-      "extra": {
-      },
-      "value_description": "Bonus Level From Poms",
-      "rarity": {
-        "duo": {
-          "base": null,
-          "type": ".",
-          "value": 1
-        }
-      }
-    },
-    {
-      "id": "boon_smoldering_air",
-      "god": [
-        "god_aphrodite", "god_zeus"
-      ],
-      "name": "Smoldering Air",
-      "description": "Your Call charges up automatically, but is capped at 25%.",
-      "type": [
-        "call"
-      ],
-      "availability": {
-        "requiresOneOfEach": [
-          [
-            "boon_passion_dash", "boon_crush_shot", "boon_hearthbreak_strike", "boon_hearthbreak_florish", "boon_aphrodite_aid"
-          ],
-          [
-            "boon_ligtning_strike", "boon_thunder_dash", "boon_thunder_flourish", "bloon_electric_shot", "boon_zeus_aid"
-          ]
-        ],
-        "incompatible": ["keepsake_sigil_of_the_dead"]
-      },
-      "status_effect": [],
-      "tier": 4,
-      "extra": {
-        "gain_per_second": 0.2,
-        "call_max_percent": 25
-      },
-      "value_description": "Auto Gauge Gain",
-      "rarity": {
-        "duo": {
-          "base": null,
-          "type": "%",
-          "value": 1
-        }
-      }
     }
-  ]
-}
+  ];
